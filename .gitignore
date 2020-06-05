@@ -1,24 +1,22 @@
 .DS_Store
-node_modules/
-dist/
-npm-debug.log
-yarn-error.log
-.nyc_output/
-coverage/
-.vscode/
-.idea/
-sites/doc/view
-sites/doc/page
-package-lock.json
-yarn.lock
-docshashCache.text
-srchashCache.text
-localsrc.cache
-localdocs.cache
-cache/src.cache
-cache/mdToVue.cache
-cache/docs.cache
-lib/plugin/cli/dist_cli/
-lib/plugin/cli/site/doc/view/
-lib/plugin/cli/site/doc/page/
-yarn.lock
+node_modules
+/dist
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
